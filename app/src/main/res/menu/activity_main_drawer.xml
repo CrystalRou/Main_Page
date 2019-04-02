@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/ic_school"
+            android:title="學校活動" />
+        <item
+            android:id="@+id/nav_club"
+            android:icon="@drawable/ic_club"
+            android:title="社團活動" />
+        <item
+            android:id="@+id/nav_class"
+            android:icon="@drawable/ic_class"
+            android:title="課程分組" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_other"
+            android:title="其他" />
+        <item
+            android:id="@+id/nav_love"
+            android:icon="@drawable/ic_favorite"
+            android:title="我的最愛" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="設定" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="登出" />
+
+    </group>
+
+</menu>
